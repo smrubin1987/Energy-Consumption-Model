@@ -1,5 +1,5 @@
 # Timeseries Analysis and Forecasting: Electricity Consumption Model
-![alt text](https://github.com/smrubin1987/Energy-Consumption-Model/tree/main/Images/transmissionLines.jpg?raw=true)
+![image1](https://github.com/smrubin1987/Energy-Consumption-Model/tree/main/Images/transmissionLines.jpeg?raw=true)
 ## Summary:
 Developing a timeseries analysis and forecast for electricity power consumption through an interconnection grid region over multiple years within various associated utility groups in the eastern United States. Data was sourced from Kaggle (https://www.kaggle.com/robikscube/hourly-energy-consumption), from PJM Interconnection LLC - an interstate electricity transmission company.
 
