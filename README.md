@@ -3,6 +3,8 @@
 ## Summary:
 Developing a timeseries analysis and forecast for electricity power consumption through an interconnection grid region over multiple years within various associated utility groups in the eastern United States. Data was sourced from Kaggle (https://www.kaggle.com/robikscube/hourly-energy-consumption), from PJM Interconnection LLC - an interstate electricity transmission company.
 
+![](Images/transmissionLines1.jpg)
+
 ## Data Wrangling:
 Data was downloaded as various .csv files, joined using pandas into a pandas DataFrame, and summed based on overlapping years (6-year period) of different utility organizations within the overhead PJM Interconnect company. The data was downloaded as megawatts per hour per utility company, which was then summed per day, then per week. 
 
