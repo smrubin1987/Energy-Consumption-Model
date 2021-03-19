@@ -22,7 +22,7 @@ Dicky-Fuller Test for stationarity of time series data from sklearn.
 ![](Figures/adfuller_weekly.JPG)
 
 ## Modeling 
-To forecast the timeseries data, I deployed two machine learning models: i) Persistence Model; ii) Autoregressive Integrated Moving Average (ARIMA) model from sklearn; and ii) Random Forest Regressor model from sklearn. These were compared to a "persistence" model using root mean squarred error (rmse) as a model metric of accuracy. If either model suggested improved accuracy within the forecast, deploying machine learning models may improve the transmission company's capacity for predicting energy consumption throughout the subsequent years over the persistence model.
+To forecast the timeseries data, I deployed two machine learning models: i) Persistence Model; ii) Autoregressive Integrated Moving Average (ARIMA) model from sklearn; and ii) Random Forest Regressor model from sklearn. These were compared to a "persistence" model using root mean squarred error (rmse) as a model metric of accuracy. If either model suggested improved accuracy within the forecast, deploying machine learning models may improve the transmission company's capacity for predicting energy consumption throughout the subsequent years over the persistence model. The ARIMA(7,0,2) model showed the lowest RMSE score, suggesting the highest accuracy forecasting model.
 
 ![](Figures/ARIMA_7_0_2_Model.jpg)
 
