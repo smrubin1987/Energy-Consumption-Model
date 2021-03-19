@@ -6,7 +6,9 @@ Developing a timeseries analysis and forecast for electricity power consumption 
 ![](Images/transmissionLines1.jpg)
 
 ## Data Wrangling:
+
 [Data Wrangling] (https://github.com/smrubin1987/Energy-Consumption-Model/blob/main/DataWrangling_EDA.ipynb)
+
 Data was downloaded as various .csv files, joined using pandas into a pandas DataFrame, and summed based on overlapping years (6-year period) of different utility organizations within the overhead PJM Interconnect company. The data was downloaded as megawatts per hour per utility company, which was then summed per day, then per week. The weekly resampled dataset suggested better stationarity, which was utilized to build and test the models 
 
 ![](Figures/plot_weekly.JPG)
