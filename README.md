@@ -5,9 +5,10 @@ Developing a timeseries analysis and forecast for electricity power consumption 
 
 ![](Images/transmissionLines1.jpg)
 
-![](Images/pjm-zones_001.jpg)
 ## Data Wrangling:
 Data was downloaded as various .csv files, joined using pandas into a pandas DataFrame, and summed based on overlapping years (6-year period) of different utility organizations within the overhead PJM Interconnect company. The data was downloaded as megawatts per hour per utility company, which was then summed per day, then per week. 
+
+![](Figures/plot_weekly.jpg)
 
 ## Exploratory Data Analysis
 Seasonality exists throughout each year, showing increases in power consumption in both winter and summer, with infrequent spikes and troughs of power consumption (likely relating to unforeseen events such as extreme weather occurences). Throughout the 6 year period of analysis, the data appears to maintain stationarity, which is appearent through analysis of the dicky-fuller test. 
